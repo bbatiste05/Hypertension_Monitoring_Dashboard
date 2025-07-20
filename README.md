@@ -13,7 +13,7 @@ This Streamlit app simulates an Epic-style clinical report used in ambulatory se
 
 | Dashboard | Filters | Chart | Table |
 |-----------|---------|-------|-------|
-| ![Overview](./dashboard.png) | ![Filters](./filters.png) | ![Chart](./bar_chart_risks.png) | ![Table](./table_patients.png) |
+| ![Overview](./dashboard.png) | ![Filters](./chart_filters.png) | ![Chart](./bar_chart_risks.png) | ![Table](./table_patients.png) |
 
 ## 📁 Files
 
