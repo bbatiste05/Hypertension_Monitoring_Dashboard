@@ -1,30 +1,25 @@
-**Ticket ID:** TICKET-101  
-**Type:** Incident – Functionality  
-**Module:** Ambulatory Reports → Clarity/Radar  
+**Ticket ID:** TICKET-102  
+**Type:** Enhancement  
+**Module:** Ambulatory Analytics – Risk Reporting  
 
-**Submitted by:** Dr. Smith (Primary Care)  
-**Summary:** “Risk Score” filter selection resets after viewing report  
-
----
-
-### 📝 Description:
-
-Provider reports that when filtering by Risk Score on the Hypertension Monitoring Dashboard, the selection is not retained after navigating away from the page.
+**Requested by:** Nursing Manager (Outreach Team)  
+**Summary:** “Can we highlight patients with systolic BP ≥180 in red?”
 
 ---
 
-### 🔄 Reproduction Steps:
+### ✅ Request:
 
-1. Open Hypertension Dashboard
-2. Use sidebar to filter: Risk Score = 4–5
-3. Navigate to another module (e.g., Reports > Recent Visits)
-4. Return to dashboard
-
-→ Filter resets to default
+Update the bar chart and patient table to apply a red tag or highlight to patients with **hypertensive crisis** levels.
 
 ---
 
-### ✅ Resolution:
+### 🔄 Action Taken:
 
-Confirmed dashboard session state was not preserved across tabs. Updated Streamlit to cache the most recent filter state using `st.session_state`. Validated with Dr. Smith and marked resolved.
+Modified dashboard logic to apply custom color formatting using Streamlit’s `st.markdown` and Plotly conditional styling for:
+- `systolic ≥ 180` → red highlight
+- `systolic 160–179` → orange
+
+Change reviewed by Clinical Quality Committee.
+
+
 
