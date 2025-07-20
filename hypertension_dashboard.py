@@ -15,7 +15,7 @@ with st.sidebar:
     st.header("🔎 Filter Patients")
     providers = st.multiselect("Provider", options=sorted(df['provider'].unique()), default=df['provider'].unique())
     risk = st.slider("Risk Score", min_value=int(df['risk_score'].min()), max_value=int(df['risk_score'].max()), value=(2, 5))
-    date_range = st.date_input("Last Visit After", value=pd.to_datetime("2025=-7-01"))
+    date_range = st.date_input("Last Visit After", value=pd.to_datetime("2025-7-01"))
     
     # Apply Filters
     filtered_df = df[
