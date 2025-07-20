@@ -1,0 +1,8 @@
+patient_id,first_name,last_name,provider,bp_systolic,bp_diastolic,icd10,last_visit,risk_score
+1001,John,Doe,Dr. Smith,165,100,I10,2025-07-10,4
+1002,Jane,Lee,Dr. Smith,135,85,E11.9,2025-07-05,3
+1003,Ana,Brown,Dr. Patel,175,110,I10,2025-07-14,5
+1004,Mark,Nguyen,Dr. Patel,140,92,I10,2025-06-28,2
+1005,Emily,Chen,Dr. Wilson,160,105,I10,2025-07-12,4
+1006,Ravi,Shah,Dr. Wilson,130,80,E11.65,2025-07-13,3
+1007,Linda,Park,Dr. Smith,168,98,I10,2025-07-07,4
