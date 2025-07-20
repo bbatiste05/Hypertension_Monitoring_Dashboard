@@ -32,7 +32,7 @@ with st.sidebar:
     st.subheader("📊 High-Risk Patients by Provider")
     fig = px.bar(
         filtered_df.sort_values(by="risk_score", ascending=False),
-        x="last name",
+        x="last_name",
         y="risk_score",
         color="provider",
         title="Top Risk Scores by Patient",
