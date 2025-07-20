@@ -1,5 +1,8 @@
 # 🩺 Hypertension Monitoring Dashboard
 
+[![View in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hypertensionmonitoringdashboard-s3catjhirdsdwdwgrxfjw4.streamlit.app/)
+
+
 This Streamlit app simulates an Epic-style clinical report used in ambulatory settings to monitor patients with high blood pressure. Built from a practice dataset, it displays risk scores, blood pressure levels, and provider assignments with filterable charts and tables.
 
 ## 📊 Features
